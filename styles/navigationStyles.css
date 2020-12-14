@@ -1,0 +1,107 @@
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    background: #99AA38;
+    font-family: 'Rambla', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+}
+
+
+/* Left Styles */
+
+nav > .left {
+    width: 35%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .left > .links {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav > .left > .links > .link {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E1E289;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+nav > .left > .links > .link:hover {
+    color: #0A210F;
+    letter-spacing: 1px;
+}
+
+/* Center Styles */
+nav > .center {
+    width: 30%;
+    height: 100%;
+    font-family: 'Cormorant SC', serif;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > .center > .logo {
+    font-family: 'Cormorant SC', serif;
+    color: #0A210F;
+}
+
+nav > .center span {
+    font-family: 'Cormorant SC', serif;
+    font-size: 3rem;
+    color: #14591D;
+}
+
+/* Right Styles */
+
+nav > .right {
+    width: 35%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .right > .links {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav > .right > .links > .link {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E1E289;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+nav > .right > .links > .link:hover {
+    color: #0A210F;
+    letter-spacing: 1px;
+}

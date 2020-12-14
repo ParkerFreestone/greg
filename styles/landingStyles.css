@@ -1,0 +1,45 @@
+/* Content */
+
+.content{
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/backgrounds/greg.jpg);
+    background-size: cover;
+}
+
+.content > .intro {
+    font-size: 4rem;
+    font-family: 'Rambla', sans-serif;
+    color: #0A210F;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    right: 0;
+    bottom: 0;
+}
+
+.content > .intro2 {
+    font-size: 1.3rem;
+    font-family: 'Rambla', sans-serif;
+    color: #0A210F;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+.content button {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background: #E1E289;
+    font-family: 'Rambla', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
